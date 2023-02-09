@@ -1,13 +1,45 @@
-<!DOCTYPE html>
-<html lang="no">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask - VGS</title>
-</head>
-<body>
-    <h1>Hallo, {{navn}}!</h1>
-</body>
-</html>
+{% extends "mal.html" %}
+
+{% block main %}
+
+<div class="quiz">
+    <div id="capital_quiz">
+        <a href="/capitals_quiz">
+            <button type="button">
+                <h1>Capitals</h1>
+                <h3>How good are you at capital cities?</h3>
+                <img src="https://static.vecteezy.com/system/resources/previews/009/973/629/original/office-building-icon-sign-symbol-design-free-png.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div id="flag_quiz">
+        <a href="/flag_quiz">
+            <button type="button">
+                <h1>Flags</h1>
+                <h3>Test your flag knowledge!</h3>
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25369.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div id="domains_quiz">
+        <a href="/domains_quiz">
+            <button type="button">
+                <h1>Domains</h1>
+                <h3>Do you know your domains?</h3>
+                <img src="https://cdn-icons-png.flaticon.com/512/5030/5030600.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div id="mix_quiz">
+        <a href="/mix_quiz">
+            <button type="button">
+                <h1>Mix</h1>
+                <h3>Become a jack of all trades</h3>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_70502.png" alt="">
+            </button>
+        </a>
+    </div>
+</div>
+    
+{% endblock %}
 

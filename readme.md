@@ -1,19 +1,21 @@
-# Navn på app her
+# GeoQuiz
 
-Skriv en kort beskrivelse av appen her  
+Appen er en quiz app som quizzer brukere på fakta om land. Brukere kan velge om de vil spille hovedstad-quiz, flagg-quiz, domene-quiz eller en quiz som blander alt. 
 
-- [Prosjektbeskrivelse](./prosjektbeskrivelse.md)
+Det hadde vært kult å lage en sql-database med score og tider, slik at jeg kan lage globale og personlige leaderboards. 
 
 ## Skal gjøres
 
-- [ ] Hva er planen din?
-- [x] Eksempel på ferdig gjøremål
+- [ ] Lage hovedstad quiz (Lære requests "POST")
+- [ ] Lage andre quizzer, og teste
+- [ ] Lære litt MySQL, og hvordan knytte det til Python
+- mer kommer...
 
 ## Logg
 
 ### Uke 1
 
-- Hva har du gjort denne uka?
+- Jeg har satt opp Flask og har greid å hente ut informasjon av APIen. Lagd en grei forside med litt enkel CSS.
 
 ## Tilbakemeldinger
 
