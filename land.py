@@ -1,4 +1,3 @@
-from curses.ascii import alt
 import requests
 
 def info_alt():
