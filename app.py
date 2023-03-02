@@ -10,6 +10,7 @@ def index():
 
 @app.route("/capitals_quiz", methods=['GET', 'POST'])
 def rute_capitals_quiz():
+    points = 0
     if request.method == "GET":
         # Use RESTcountries API to get a random country
         response = requests.get("https://restcountries.com/v2/all")
@@ -52,11 +53,12 @@ def rute_capitals_quiz():
         # Check if the user's answer is correct and return the appropriate message
         if user_answer == correct_answer:
             message = "Correct!"
+            points += 1
         else:
             message = "Feil!"
         
         # Render the results template with the user's answer and the appropriate message
-        return render_template("results.html", user_answer=user_answer, message=message)
+        return render_template("results.html", user_answer=user_answer, message=message, points=points)
 
 
 
