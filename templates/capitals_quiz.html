@@ -1,5 +1,14 @@
 {% extends "mal.html" %}
 
 {% block main %}
-    <p>Capitals</p>
+    <div class="container">
+        <h1>What is the capital of {{ question }}?</h1>
+        <form method="post" action="/capitals_quiz">
+        {% for answer in answer_choices %}
+        <input type="radio" name="answer" value="{{ answer }}">{{ answer }}<br>
+        {% endfor %}
+        <input type="hidden" name="question" value="{{ question }}">
+        <input type="submit" value="Submit">
+        </form>
+      </div>
 {% endblock %}
