@@ -71,11 +71,11 @@ Tilbakemeldingene skal skrives i readme-filen.
 
 ## Vurderingskriterier
 
-| Kriterie             | Lav måloppnåelse                                                      | Middels måloppnåelse                                  | Høy måloppnåelse                                         |
-| -------------------- | --------------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
-| Innheting av data    | Data hentes direkte fra en ordbok eller liste i en Python-fil         | Data hentes fra fil                                   | Data hentes fra nett eller en database                   |
-| Lagring av data      | Data lagres direkte som en ordbok eller liste direkte i en Python-fil | Data lagres i en fil                                  | Data lagres i en database eller lignende                 |
-| Utveksling av data   | Data utveksles ubearbeidet (eks: all data sendes uendret fra kilden)  | Data som utveksles er noe bearbeidet                  | Kun nødvendig data utveksles                             |
-| Presentasjon av data | Data presenteres i terminalen eller på tilsvarende måte               | Data presenteres på en enkel nettside eller lignenede | Data presenteres på en nettside eller lignende           |
-| Brukervennlighet     | Det er ikke tatt hensyn til tilbakemeldingene                         | Det er tatt noe hensyn til tilbakemeldingene          | Alle tilbakemeldingene er tatt hensyn til på en god måte |
-| Systemutvikling      | Har en dårlig arbeidsmetodikk (eks: skippertak)                       | Har en noe utdatert arbeidsmetodikk (eks: fossefall)  | Jobber smidig                                            |
+| Kriterie             | Lav måloppnåelse                                                      | Middels måloppnåelse                                  | Høy måloppnåelse                                                 |
+| -------------------- | --------------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- |
+| Innheting av data    | Data hentes direkte fra en ordbok eller liste i en Python-fil         |                                                       | Data hentes fra nett eller en database / Data hentes fra fil     |
+| Lagring av data      | Data lagres direkte som en ordbok eller liste direkte i en Python-fil |                                                       | Data lagres i en database eller lignende / Data lagres i fil(er) |
+| Utveksling av data   | Data utveksles ubearbeidet (eks: all data sendes uendret fra kilden)  | Data som utveksles er noe bearbeidet                  | Kun nødvendig data utveksles                                     |
+| Presentasjon av data | Data presenteres i terminalen eller på tilsvarende måte               | Data presenteres på en enkel nettside eller lignenede | Data presenteres på en nettside eller lignende                   |
+| Brukervennlighet     | Det er ikke tatt hensyn til tilbakemeldingene                         | Det er tatt noe hensyn til tilbakemeldingene          | Alle tilbakemeldingene er tatt hensyn til på en god måte         |
+| Systemutvikling      | Har en dårlig arbeidsmetodikk (eks: skippertak)                       | Har en noe utdatert arbeidsmetodikk (eks: fossefall)  | Jobber smidig                                                    |
